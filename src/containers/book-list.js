@@ -1,7 +1,7 @@
-import React, {component} from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class BookList extends component {
+class BookList extends Component {
 
     renderList() {
         return this.props.books.map((book) => {
